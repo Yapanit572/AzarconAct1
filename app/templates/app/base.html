@@ -10,14 +10,8 @@
 
 </head>
 <body>
-<!--<nav>
-    <a href="{% url 'home' %}">Home</a>
-    <a href="{% url 'about' %}">About</a>
-</nav>-->
-  <header>
-    <a href="{% url 'home'%}">Home</a>
-    <a href="{% url 'about'%}">About</a>
-  </header>
+{% include 'app/navbar.html' %}
+
 
 {% block content %}
 <!--pages-->
